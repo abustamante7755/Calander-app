@@ -5,20 +5,23 @@ body {
   }
   
   textarea {
-    background: transparent;
-    border: none;
-    resize: none;
+    background: white;
+    border: black;
+    resize: 10px;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
   }
+  main {
+      background-color: lightblue;
+      border: 10px solid black;
+  }
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: lightBlue;
     color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
+    border: 10px solid black;
   }
   
   .description {
@@ -37,7 +40,7 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: gray;
     color: #000000;
     border-top: 1px dashed #000000;
   }
@@ -62,7 +65,7 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
-    color: white;
+    color:black;
   }
   
   .saveBtn i:hover {

@@ -25,42 +25,56 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead">Welcome to your daily planner</p>
+      <div id="digital-clock"></div>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <main>
+      <div class="container">
       <div class="container">
         <div class="col align-items-start">
           <div class="col">
              09:00AM </div>
-             <textarea></textarea>
+             <textarea id = "textArea"></textarea>
+             <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             10:00AM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             11:00AM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             12:00AM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
              01:00PM</div>
-             <textarea></textarea>
+             <textarea id = "textArea"></textarea>
+             <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             02:00PM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             03:00PM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             04:00PM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
           <div class="col">
             05:00PM</div>
-            <textarea></textarea>
+            <textarea id = "textArea"></textarea>
+            <button onclick="savetextarea()" type="button">Save</button>
         </div>
+       
       <!-- Timeblocks go here -->
     </div>
+    </div>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
